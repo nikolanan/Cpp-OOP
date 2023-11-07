@@ -44,7 +44,7 @@ The map is divided into lines (L) and columns (C). The contours of the map are a
 map always has a starting point `@` and a suicide booth `$`.
 
 
-Let the map below:
+Let the map below be:
 
     ######
     #@E $#
@@ -63,11 +63,11 @@ Then the path is:
 
 Input:
 
-X and Y of the map and then the actual map
+`X and Y of the map and then the actual map`
 
 Output:
 
-All steps taken until reaching the final destination
+`All steps taken until reaching the final destination`
 
 
 Sample input:
@@ -312,3 +312,78 @@ Sample output:
     South
     West
     West
+
+Sample input:
+
+      10 10
+      ##########
+      #T    $  #
+      #        #
+      #E  X    #
+      #  $     #
+      #        #
+      #@       #
+      #BX      #
+      #XB     T#
+      ##########
+
+Sample output:
+
+      South
+      South
+      East
+      East
+      East
+      East
+      East
+      East
+      East
+      South
+      South
+      East
+      East
+      South
+
+Sample input:
+
+      10 10
+      ##########
+      #$      T#
+      #E     TX#
+      #   @    #
+      #   B    #
+      #   X    #
+      #N  B    #
+      #        #
+      #   I    #
+      ##########
+
+Sample output:
+
+      South
+      South
+      South
+      South
+      South
+      West
+      West
+      West
+      North
+      North
+      North
+      North
+      North
+      North
+      East
+      East
+      East
+      East
+      East
+      East
+      West
+      West
+      West
+      West
+      West
+      West
+      West
