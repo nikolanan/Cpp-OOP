@@ -627,9 +627,7 @@ Robot::Robot(const Map& map) {
 int main()
 {   
     Map theMap(cin);
-    //theMap.getArray();
     Robot r1(theMap);
-    //rumencho.getStartingCoordinates();
     r1.coordinatesChanger(theMap);
     return 0;
 
